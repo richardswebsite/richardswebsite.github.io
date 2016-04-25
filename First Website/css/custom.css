@@ -1,0 +1,73 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  
+}
+
+.jumbotron, ul.nav {
+	text-align: center;
+	}
+
+.jumbotron h1, ul.nav {
+	font-family: 'Arvo', serif;
+}
+
+.jumbotron {
+	background-image: url("../images/HeroImage.jpg");
+	color: white;
+	font-weight: 200px;
+}
+
+.jumbotron h1 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+.jumbotron p {
+	margin-bottom: 30px;
+}
+
+.btn-lg {
+	font-size: 36px;
+}
+
+.homepage {
+	text-align: center;
+}
+
+.homepage h2 {
+	color: #e74c3c;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+.homepage h3 {
+	color: #e74c3c;
+	font-size: 20px;
+}
+
+.homepage a {
+		color: #e74c3c;
+
+}
+
+.homepage a:hover {
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+.homepage p {
+	font-size: 21px;
+	font-weight: 300;
+}
+
+.homepage hr {
+	margin-bottom: 15px;
+	border-top: 1px solid #e74c3c;
+	width: 120px;
+}
+
+#get-involved {
+	background-color: #f5f5f5;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
